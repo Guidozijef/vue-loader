@@ -1,6 +1,6 @@
 <template lang="pug">
 div(ok)
-  h1(:class="$style.red") hello
+  h1(:class="$style.red") hello world
 </template>
 
 <script>
@@ -21,6 +21,6 @@ export default {
 
 <foo>
 export default comp => {
-  console.log(comp.options.data())
+  console.log(comp)
 }
 </foo>
